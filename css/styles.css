@@ -16,6 +16,10 @@ a {
 header {
     background-color: #E7E9FC;
 }
+
+.header-studio {
+    color: #2E2F42
+}
 .menu {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -37,11 +41,13 @@ header {
 }
 
 .contacts {
+    font-style: normal;
+}
+.contacts .contacts-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
 .contacts .contacts-link:hover {
@@ -69,6 +75,7 @@ header {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 .button:hover {
     background-color: #404BBF;
@@ -102,6 +109,9 @@ header {
     color: #434455;
 }
 
+.team {
+    background-color: #F4F4FD;
+}
 .team-card {
     background-color: #FFFFFF;
 }
@@ -150,7 +160,7 @@ footer .text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#E7E9FC
+    color:#F4F4FD;
 }
 
 .logo {
@@ -162,6 +172,6 @@ footer .text{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.studio {
+.footer-studio {
     color: #F4F4FD; 
 }
