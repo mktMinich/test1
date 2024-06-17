@@ -24,28 +24,30 @@ header {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+.menu .menu-link {
+    color: #2e2f42;
+}
 .menu .menu-link:hover {
     color: #404BBF;
 }
 
-.menu .menu-link:active {
+.menu .menu-link:focus {
     color: #404BBF;
     text-decoration: underline;
 }
 
 .contacts {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.contacts .contacts-link{
-    color: #434455;
+    font-style: normal;
 }
 
 .contacts .contacts-link:hover {
+    color: #404BBF;
+}
+.contacts-link:focus {
     color: #404BBF;
 }
 .hero {
@@ -53,10 +55,9 @@ header {
 }
 
 .hero-title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
     font-size: 56px;
-    line-height: 1.5;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
 }
@@ -73,6 +74,9 @@ header {
     background-color: #404BBF;
 }
 
+.button:focus {
+    background-color: #404BBF;
+}
 .feature-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -83,26 +87,23 @@ header {
 }
 
 .section-title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 1.5;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.team {
-    background-color: #F4F4FD;
-
+.team-card {
+    background-color: #FFFFFF;
 }
 .team-card .team-card-title {
     font-family: "Roboto", sans-serif;
@@ -114,8 +115,6 @@ header {
     color: #2E2F42;
 }
 .team-card .team-card-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -128,7 +127,7 @@ header {
 }
 
 .portfolio .portfolio-card-title {
-     font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -137,8 +136,6 @@ header {
     color: #2E2F42;
 }
 .portfolio .portfolio-card-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -146,12 +143,10 @@ header {
     color: #434455;
 }
 
-footer {
+.footer {
     background-color: #2E2F42;
 }
 footer .text{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -162,7 +157,11 @@ footer .text{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
-
+.studio {
+    color: #F4F4FD; 
+}
