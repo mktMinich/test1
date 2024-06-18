@@ -13,9 +13,6 @@ a {
     text-decoration: none;
 }
 
-header {
-    background-color: #E7E9FC;
-}
 
 .header-studio {
     color: #2E2F42
@@ -130,10 +127,6 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-}
-
-.portfolio {
-    background-color: #E7E9FC;
 }
 
 .portfolio .portfolio-card-title {
